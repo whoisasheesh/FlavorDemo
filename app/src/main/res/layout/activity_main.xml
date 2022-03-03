@@ -7,8 +7,7 @@
     android:orientation="vertical">
 
     /*this is a bugfix */
-    /*this is a feature */
-    /*this is another feature */
+    /* this another bugfix */
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
