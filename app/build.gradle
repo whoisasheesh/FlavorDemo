@@ -31,12 +31,17 @@ android {
     }
 
     flavorDimensions "default"
-    productFlavors{
-        lessFeature{
-
+    //for example you have different rest apis for free and paid app
+    //that can be defined here
+    //You can also give different packages for both app
+    productFlavors {
+        lessFeature {
+            applicationId "com.example.flavordemo.lessFeature"
+            buildConfigField("String", "BASE_URL", "http://www.lessFeature.com")
         }
-        moreFeature{
-
+        moreFeature {
+            applicationId "com.example.flavordemo.moreFeature"
+            buildConfigField("String", "BASE_URL", "\"http://www.paidFeature.com\"")
         }
     }
 }

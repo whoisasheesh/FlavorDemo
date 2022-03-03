@@ -27,27 +27,4 @@
         android:text="@string/feature_3"
         android:textColor="@color/appBlack"
         android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_4"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_5"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_6"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-
 </LinearLayout>
