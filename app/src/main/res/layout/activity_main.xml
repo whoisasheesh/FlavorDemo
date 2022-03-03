@@ -17,6 +17,7 @@
         app:titleTextColor="@color/white" />
 
 
+
     <TextView
         style="@style/TextViewStyle"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
