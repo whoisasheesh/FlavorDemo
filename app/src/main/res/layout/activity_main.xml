@@ -6,7 +6,6 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    this is a feature
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -16,8 +15,6 @@
         app:contentInsetStartWithNavigation="0dp"
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:titleTextColor="@color/white" />
-
-    This is just a bugfix nothing much
 
     <TextView
         style="@style/TextViewStyle"
