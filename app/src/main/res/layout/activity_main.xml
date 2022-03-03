@@ -15,7 +15,7 @@
         app:contentInsetStartWithNavigation="0dp"
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:titleTextColor="@color/white" />
-
+this is a feature
     <TextView
         style="@style/TextViewStyle"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
