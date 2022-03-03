@@ -21,7 +21,7 @@ this is a feature
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:text="@string/feature_1"
         android:textSize="30sp" />
-this is another feature
+this is another feature.
     <TextView
         style="@style/TextViewStyle"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
