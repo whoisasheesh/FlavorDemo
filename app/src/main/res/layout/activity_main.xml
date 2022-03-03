@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:titleTextColor="@color/white" />
+
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_1"
+        android:textSize="30sp" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_2"
+        android:textSize="30sp" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_3"
+        android:textSize="30sp" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_4"
+        android:textSize="30sp" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_5"
+        android:textSize="30sp" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/feature_6"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
