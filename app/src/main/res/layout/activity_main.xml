@@ -11,6 +11,8 @@
     /*this is another bugfix */
     /*this is another bugfix 2 */
     /*this another feature */
+
+    /this is another feature */
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
