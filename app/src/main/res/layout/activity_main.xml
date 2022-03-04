@@ -5,49 +5,26 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <include layout="@layout/toolbar" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:visibility="gone" />
+
 
     <TextView
-        style="@style/TextViewStyle"
+        style="@style/TextViewStyle.Black"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_1"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_2"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_3"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_4"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_5"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-    <TextView
-        style="@style/TextViewStyle"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/feature_6"
-        android:textColor="@color/appBlack"
-        android:textSize="30sp" />
-
-
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="Error Text"
+        android:visibility="gone" />
 </LinearLayout>
